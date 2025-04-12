@@ -24,7 +24,7 @@ BUCKET_NAME = "softschool-dev"
 ALLOW_LIST_BUCKET = "false"
 # If set, the worker will strip the `file/` prefix from incoming request paths.
 # See https://rclone.org/b2/#b2-download-url
-RCLONE_DOWNLOAD = "<true, if you are using the Worker to proxy downloads for rclone, otherwise false>"
+RCLONE_DOWNLOAD = "false"
 # If set, these headers will be included in the signed upstream request
 # alongside the minimal set of headers required for an AWS v4 signature:
 # "authorization", "x-amz-content-sha256" and "x-amz-date".
